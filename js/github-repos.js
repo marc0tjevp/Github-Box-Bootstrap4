@@ -26,23 +26,31 @@
         '      <div class="float-right">' +
         '       <span class="badge ' + badge + '">' +
         '           <a href="{{html_url}}/stargazers">' +
-        '          <i class=\ "fa fa-star\"></i> {{watchers}}</a>' +
+        '          <i class="fa fa-star"></i> {{stargazers_count}}</a>' +
         '       </span>' +
         '       <span class="badge ' + badge + '">' +
-        '        <a class=\ "repo-forks\" href=\ "{{html_url}}/forks\">' +
-        '          <i class=\ "fa fa-code-fork\"></i> {{forks}}</a>' +
+        '        <a href="{{html_url}}/network">' +
+        '          <i class="fa fa-code-fork"></i> {{forks_count}}</a>' +
+        '       </span>' +
+        '       <span class="badge ' + badge + '">' +
+        '        <a href="{{html_url}}/watchers">' +
+        '          <i class="fa fa-eye"></i> {{subscribers_count}}</a>' +
         '       </span>' +
         '      </div>' +
         '    </div>' +
         '    <div class="card-body">' +
         '      <p class="card-text">{{description}}.</p>' +
+        '      <p>' +
+        '           <span class="language-dot {{language}}-color"></span>' +
+        '           {{language}}' +
+        '       </p>' +
         '    </div>' +
         '       <div class="card-footer">' +
         '           <div class="pull-left">' +
         '               <p><em>Latest commit on {{pushed_at}}</em></p>' +
         '           </div>' +
         '            <div class="pull-right">' +
-        '               <a class="btn '+ button + ' btn-sm float-right" href="{{html_url}}">Show on GitHub</a>' +
+        '               <a class="btn ' + button + ' btn-sm float-right" href="{{html_url}}">Show on GitHub</a>' +
         '            </div>' +
         '            <div class="clearfix"></div>' +
         '       </div>' +
