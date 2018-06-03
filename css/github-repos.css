@@ -1,0 +1,22 @@
+.github-box {
+  margin-bottom: 20px;
+}
+
+.github-box .badge {
+  font-size: 100% !important;
+  font-weight: normal !important;
+  min-width: 60px;
+}
+
+.github-box .card-header .title {
+  color: #000;
+}
+
+.github-box .badge a {
+  color: #fff;
+  padding: 2px;
+}
+
+.github-box .card-footer{
+  padding-bottom: 2px;
+}
