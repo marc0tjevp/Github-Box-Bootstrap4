@@ -20,3 +20,24 @@
 .github-box .card-footer{
   padding-bottom: 2px;
 }
+
+.language-dot {
+  height: 12.5px;
+  width: 12.5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.CSS-color {
+  background-color: #563d7c;
+  color: #fff;
+}
+
+.HTML-color {
+  background-color: #e34c26;
+}
+
+.JavaScript-color {
+  background-color: #f1e05a;
+}
