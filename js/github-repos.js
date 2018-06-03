@@ -39,7 +39,7 @@
         '      </div>' +
         '    </div>' +
         '    <div class="card-body">' +
-        '      <p class="card-text">{{description}}.</p>' +
+        '      <p class="card-text description">{{description}}</p>' +
         '      <p class="card-language">' +
         '           <span class="language-dot {{language}}-color"></span>' +
         '           {{language}}' +
@@ -110,6 +110,10 @@
             month = pushed_at.getMonth() + 1,
             day = pushed_at.getDate(),
             year = pushed_at.getFullYear()
+
+        if (data.description == null) {
+            data.description = ''
+        }
 
         data.pushed_at = year + '/' + pad(month) + '/' + pad(day)
         data.repo_url = '//github.com/' + this.repo
