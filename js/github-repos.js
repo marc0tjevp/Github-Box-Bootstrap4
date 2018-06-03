@@ -30,7 +30,7 @@
         '       </span>' +
         '       <span class="badge ' + badge + '">' +
         '        <a href="{{html_url}}/network">' +
-        '          <i class="fa fa-code-fork"></i> {{forks_count}}</a>' +
+        '          <i class="fas fa-code-branch"></i> {{forks_count}}</a>' +
         '       </span>' +
         '       <span class="badge ' + badge + '">' +
         '        <a href="{{html_url}}/watchers">' +
@@ -46,13 +46,15 @@
         '       </p>' +
         '    </div>' +
         '       <div class="card-footer">' +
-        '           <div class="pull-left">' +
+        '           <div class="row">' +
+        '           <div class="col">' +
         '               <p><em>Latest commit on {{pushed_at}}</em></p>' +
         '           </div>' +
-        '            <div class="pull-right">' +
+        '            <div class="col">' +
         '               <a class="btn ' + button + ' btn-sm float-right" href="{{html_url}}">Show on GitHub</a>' +
         '            </div>' +
         '            <div class="clearfix"></div>' +
+        '        </div>' +
         '       </div>' +
         '   </div>' +
         '  </div>';
