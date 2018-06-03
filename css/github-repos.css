@@ -21,6 +21,11 @@
   padding-bottom: 2px;
 }
 
+.card-language {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
 .language-dot {
   height: 12.5px;
   width: 12.5px;

@@ -40,7 +40,7 @@
         '    </div>' +
         '    <div class="card-body">' +
         '      <p class="card-text">{{description}}.</p>' +
-        '      <p>' +
+        '      <p class="card-language">' +
         '           <span class="language-dot {{language}}-color"></span>' +
         '           {{language}}' +
         '       </p>' +
