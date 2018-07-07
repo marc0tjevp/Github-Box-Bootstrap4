@@ -4,6 +4,9 @@ A GitHub repository widget built on Bootstrap 4.
 ![alt text](img/light.png "Light theme")
 ![alt text](img/dark.png "Dark theme")
 ![alt text](img/buttons.png "Button theme")
+![alt text](img/header.png "Header Color")
+![alt text](img/mobile.png "Mobile version")
+
 
 ## Description
 GitHub-Box is a small widget that gives you the possibility to show a repository on your webpage or portfolio. It is built on the card layout from Bootstrap 4.
@@ -33,7 +36,7 @@ GHRepos.create('projects a')
 
 You can change the style variables in github-repos.js to use another style. These styles can be found in the [Bootstrap card documentation](https://getbootstrap.com/docs/4.1/components/card/)
 
-The language colors can be found in github-repos.css, if your language misses you can add a class named *-color, where * is the language displayed in the box.
+The language colors can be found in github-repos.css, if your language is not included, you can add a class named *-color, where * is the language displayed in the box.
 
 ## License
 This is distributed under the terms of the GNU General Public License, version 2.
