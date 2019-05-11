@@ -72,7 +72,7 @@
         '                        <p class="card-text description">{{description}}</p>' +
         '                    </div>' +
         '                    <table style="margin-bottom: 0px;" class="table ' + table + ' table-striped">' +
-        '                        <tr>' +
+        '                        <tr class="card-language-m" language="{{language}}">' +
         '                            <td>' +
         '                                <p style="margin-bottom: 0px;">' +
         '                                    <span style="margin-right: 10px; margin-left:10px;" class="language-dot {{language}}-color"></span> {{language}} </p>' +

@@ -30,11 +30,11 @@
   display: none;
 }
 
-.card-language:empty {
+.card-language:empty, .card-language-m:empty {
   display: none;
 }
 
-.card-language[language="null"] {
+.card-language[language="null"], .card-language-m[language="null"] {
   display: none;
 }
 
