@@ -42,7 +42,7 @@
         '    </div>' +
         '    <div class="card-body">' +
         '      <p class="card-text description">{{description}}</p>' +
-        '      <p class="card-language">' +
+        '      <p language="{{language}}" class="card-language">' +
         '           <span class="language-dot {{language}}-color"></span>' +
         '           {{language}}' +
         '       </p>' +

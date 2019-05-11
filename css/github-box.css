@@ -34,6 +34,10 @@
   display: none;
 }
 
+.card-language[language="null"] {
+  display: none;
+}
+
 .language-dot {
   height: 12.5px;
   width: 12.5px;
